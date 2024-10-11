@@ -1,2 +1,10 @@
-# My journey to create an interactive AI Chatbot with AWS via Slack
-As part of my continued learning of the AWS services (and more recently, the AI services), I began working on an AI powered Slackbot using Amazon Lex linked in with Amazon Kendra, with indexed data from a variety of data sources (Jira, Confluence, Google Drive etc)
+# Creating an AI Chatbot (Code name Dilbert)
+After completing the AWS AI Practitioner course, I wanted to test my knowledge of the services, and create a chatbot that would be used via Slack. 
+
+These are the requirements I went into the project with:
+1. The bot needed created using AWS Services
+2. The bot needed to utilise GenAI for interactive discussions
+3. The bot needed to link in with Slack
+4. As well as GenAI, the bot needed to have access to domain based data
+5. The bot must be easy to use
+Bonus - If I could get the bot to work via Alexa
