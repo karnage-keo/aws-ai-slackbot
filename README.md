@@ -1,4 +1,8 @@
-# Creating an AI Chatbot (Code name Dilbert)
+# Building an AI Chatbot
+## Project: Dilbert
+![Dilbert]([http://url/to/img.png](https://i0.wp.com/morfema.press/wp-content/uploads/2022/10/Dilbert.jpg?w=2560&ssl=1))
+
+
 After completing the AWS AI Practitioner course, I wanted to test my knowledge of the services, and create a chatbot that would be used via Slack. 
 
 These are the requirements I went into the project with:
