@@ -15,7 +15,8 @@ These are the requirements I went into the project with:
 Bonus - If I could get the bot to work via Alexa
 
 ## Project planning
-### __Evaluation of the AWS AI Services__  :memo: **Note:** When exploring these options, it was important to weigh up cost v feature sets 📝
+### __Evaluation of the AWS AI Services__  
+:memo: **Note:** When exploring these options, it was important to weigh up cost v feature sets 📝
 
 __Amazon Lex:__ Build bots with Conversational AI
 __Amazon Q:__ The most capable generative AI–powered assistant for accelerating software development and leveraging companies' internal data
