@@ -14,15 +14,15 @@ These are the requirements I went into the project with:
 5. The bot must be easy to use
 Bonus - If I could get the bot to work via Alexa
 
-After reviewing the options, the following services required greater analysis:
+After reviewing the options, the following services required greater analysis due to GenAI/ChatBot features, and data indexing:
 
-__Amazon Kenda__
+__Amazon Kenda__ - Kendra at a high level provides indexing via Amazon S3 or via API with large etxternal companies such as Google, Microsoft and Atlassian.
 
-__Amazon Lex__
+__Amazon Lex__ - Lex is a chatbot that can be configured with custom intents, allowing for a personal end user experience, with the ability to bounce user queries.
 
-__Amsxon Q__
+__Amazon Q__ - Is a managed subscription based chatbot, allowing for users to interactive with the client within web or mobile UIs.
 
-Each of these services will be take on greater review within the project planning below.
+The next phase will involve a deep dive exploration of the key features, customerisation and cost of each. 
 
 ## Project planning
 ### __Evaluation of the AWS AI Services__  
