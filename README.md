@@ -14,6 +14,11 @@ These are the requirements I went into the project with:
 5. The bot must be easy to use
 Bonus - If I could get the bot to work via Alexa
 
+After reviewing the options, the following services required greater analysis:
+__Amazon Kenda__
+__Amazon Lex__
+__Amsxon Q__
+
 ## Project planning
 ### __Evaluation of the AWS AI Services__  
 :memo: **Note:** When exploring these options, it was important to weigh up cost v feature sets 📝
