@@ -15,9 +15,14 @@ These are the requirements I went into the project with:
 Bonus - If I could get the bot to work via Alexa
 
 After reviewing the options, the following services required greater analysis:
+
 __Amazon Kenda__
+
 __Amazon Lex__
+
 __Amsxon Q__
+
+Each of these services will be take on greater review within the project planning below.
 
 ## Project planning
 ### __Evaluation of the AWS AI Services__  
