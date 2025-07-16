@@ -16,7 +16,7 @@ The core objectives for the DilBot project were:
 - To allow the bot to access information from sources, and use them to assit users.
 - A bonus goal included exploring potential integration with Amazon Alexa or Google Assistant for voice-based interactions.
 
-## Technologies used
+<a name=## Technologies used><\a>
 
 The DilBot project primarily utilised the following key AWS services and third-party integrations:
 
@@ -28,5 +28,23 @@ __Slack:__ The chosen platform for the chatbot's deployment and user interaction
 
 __Amazon Q (Considered Alternative):__ While Amazon Lex and Kendra formed the core, Amazon Q was considered as a potential alternative, highlighting the exploration of different managed chatbot solutions offered by AWS. Amazon Q offers a more integrated, subscription-based approach to building generative AI applications. The main detractor from Amazon Q was the ongoing cost management for a subscription based service.
 
-## 
+## Architecture and Integration
+
+The architecture of DilBot is designed to facilitate a fluid interaction between the user, the Slack platform, and the AWS backend services.
+
+User Interaction via Slack: Users initiate conversations with DilBot directly within a Slack channel. Their messages are sent to the Slack API.
+
+Slack Integration with Amazon Lex: Slack is configured to forward incoming messages to an Amazon Lex bot. This typically involves setting up an API Gateway endpoint or a Lambda function that acts as a bridge, receiving messages from Slack and passing them to Lex.
+
+Amazon Lex as the Conversational Core: Amazon Lex processes the user's input. It identifies the user's intent (e.g., "ask a question," "get information about X") and extracts any necessary slots (e.g., the specific topic of the question).
+
+Intent Fulfilment with Amazon Kendra: For intents requiring data retrieval, Amazon Lex is configured to invoke an AWS Lambda function. This Lambda function then acts as an intermediary, taking the extracted intent and slots and formulating a query for Amazon Kendra.
+
+Amazon Kendra for Intelligent Search: Kendra performs an intelligent search across its indexed data sources (e.g., Jira, Confluence, Google Drive). It retrieves the most relevant documents or snippets that answer the user's query.
+
+Response Generation and Delivery: The results from Amazon Kendra are sent back to the Lambda function, which then formats the answer. This formatted response is then passed back to Amazon Lex. Lex, in turn, sends the final response back to Slack, where it is displayed to the user.
+
+Generative AI Capabilities: Beyond direct data retrieval, the integration of generative AI (likely through Lex's capabilities or a connected LLM via Lambda) allows DilBot to engage in more free-form discussions and provide more human-like responses when direct answers aren't found or for general conversational purposes.
+
+This architecture ensures that DilBot can handle both structured queries requiring specific data lookup and more open-ended conversational interactions, providing a comprehensive AI assistant experience within Slack.
 
