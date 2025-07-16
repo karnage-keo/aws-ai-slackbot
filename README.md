@@ -2,46 +2,28 @@
 ## Project: DilBot
 ![Screenshot 2024-10-11 at 07 05 03](https://github.com/user-attachments/assets/3bd2dec4-9094-4602-b369-1f55b80489f4)
 
-## Project overview
+## Introduction
 
-After completing the AWS AI Practitioner course, I wanted to test my knowledge of the services, and create a chatbot that would be used via Slack. 
+This document details the development and implementation of DilBot, an AI-powered chatbot designed to integrate with Slack. This project served as a practical application of various Amazon Web Services (AWS) AI and search technologies, showing their capabilities in creating intelligent, conversational interfaces from organisational data . The primary goal was to build a robust chatbot that could not only engage in natural language conversations but also retrieve specific, domain-based information from diverse enterprise data sources (RAG).
 
-These are the requirements I went into the project with:
-1. The bot needed created using AWS Services
-2. The bot needed to utilise GenAI for interactive discussions
-3. The bot needed to link in with Slack
-4. As well as GenAI, the bot needed to have access to domain based data
-5. The bot must be easy to use
-Bonus - If I could get the bot to work via Alexa
+## Projet Goals and Objectives
 
-After reviewing the options, the following services required greater analysis due to GenAI/ChatBot features, and data indexing:
+The core objectives for the DilBot project were:
 
-__Amazon Kenda__ - Kendra at a high level provides indexing via Amazon S3 or via API with large etxternal companies such as Google, Microsoft and Atlassian.
+- To leverage AWS services, particularly in the realm of Artificial Intelligence, to build a functional chatbot.
+- To enable the chatbot to understand natural language queries and provide relevant responses.
+- To integrate the chatbot with Slack, making it easily accessible to users within their existing communication platform.
+- To allow the bot to access information from sources, and use them to assit users.
+- A bonus goal included exploring potential integration with Amazon Alexa or Google Assistant for voice-based interactions.
 
-__Amazon Lex__ - Lex is a chatbot that can be configured with custom intents, allowing for a personal end user experience, with the ability to bounce user queries.
+## Technologies used
 
-__Amazon Q__ - Is a managed subscription based chatbot, allowing for users to interactive with the client within web or mobile UIs.
+The DilBot project primarily utilised the following key AWS services and third-party integrations:
 
-The next phase will involve a deep dive exploration of the key features, customerisation and cost of each. 
+- Amazon Lex: This service was the cornerstone for building the conversational interface of the chatbot. Amazon Lex allowed for the design of natural language understanding (NLU) capabilities, enabling the bot to interpret user intents and extract relevant information from their requests. Lex handles the conversations with the end users, and assists in providing the criteria required when searching for data. 
+- Amazon Kendra: To provide the bot with the ability to answer questions based on specific organizational data (RAG), Amazon Kendra was employed. Kendra is an intelligent enterprise search service that uses machine learning to index and search across various data repositories. For DilBot, this included the potential to connect to sources like Jira, Confluence, and Google Drive, allowing the bot to retrieve information from these diverse platforms.
+- Slack: The chosen platform for the chatbot's deployment and user interaction was Slack. This integration allowed users to interact with DilBot directly within their Slack channels, leveraging Slack's familiar interface for commands and responses.
+- Amazon Q (Considered Alternative): While Amazon Lex and Kendra formed the core, Amazon Q was considered as a potential alternative, highlighting the exploration of different managed chatbot solutions offered by AWS. Amazon Q offers a more integrated, subscription-based approach to building generative AI applications. The main detractor from Amazon Q was the ongoing cost management for a subscription based service.
 
-## Project planning
-### __Evaluation of the AWS AI Services__  
-:memo: **Note:** When exploring these options, it was important to weigh up cost v feature sets 📝
-
-__Amazon Lex:__ Build bots with Conversational AI
-
-__Amazon Q:__ The most capable generative AI–powered assistant for accelerating software development and leveraging companies' internal data
-
-__Amazon Kendra:__ Find answers faster with intelligent enterprise search powered by machine learning
-
-## Project design
-
-## Project implementation
-
-## Project recap
-
-## Things I would like to improve
-
-## Conclusion
-
+## 
 
