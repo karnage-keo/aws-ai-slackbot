@@ -54,7 +54,7 @@ This architecture ensures that DilBot can handle both structured queries requiri
 
 ## Configuring Slack API integration
 
-## Bot testing
+## Bot testing & Adjustments
 
 ## Configuring Alexa Dilbot
 
