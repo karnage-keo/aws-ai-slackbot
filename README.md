@@ -48,3 +48,21 @@ Generative AI Capabilities: Beyond direct data retrieval, the integration of gen
 
 This architecture ensures that DilBot can handle both structured queries requiring specific data lookup and more open-ended conversational interactions, providing a comprehensive AI assistant experience within Slack.
 
+## Configuring Amazon Kendra
+
+## Configuring Amazon Lex
+
+## Configuring Slack API integration
+
+## Bot testing
+
+## Configuring Alexa Dilbot
+
+## Conclusion
+
+
+
+
+
+
+
