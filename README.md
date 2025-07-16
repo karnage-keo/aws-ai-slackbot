@@ -16,7 +16,7 @@ The core objectives for the DilBot project were:
 - To allow the bot to access information from sources, and use them to assit users.
 - A bonus goal included exploring potential integration with Amazon Alexa or Google Assistant for voice-based interactions.
 
-<a name="## Technologies Used">## Technologies used" </a>
+## Technologies used
 
 The DilBot project primarily utilised the following key AWS services and third-party integrations:
 
