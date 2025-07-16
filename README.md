@@ -21,8 +21,11 @@ The core objectives for the DilBot project were:
 The DilBot project primarily utilised the following key AWS services and third-party integrations:
 
 __Amazon Lex:__ This service was the cornerstone for building the conversational interface of the chatbot. Amazon Lex allowed for the design of natural language understanding (NLU) capabilities, enabling the bot to interpret user intents and extract relevant information from their requests. Lex handles the conversations with the end users, and assists in providing the criteria required when searching for data. 
+
 __Amazon Kendra:__ To provide the bot with the ability to answer questions based on specific organizational data (RAG), Amazon Kendra was employed. Kendra is an intelligent enterprise search service that uses machine learning to index and search across various data repositories. For DilBot, this included the potential to connect to sources like Jira, Confluence, and Google Drive, allowing the bot to retrieve information from these diverse platforms.
+
 __Slack:__ The chosen platform for the chatbot's deployment and user interaction was Slack. This integration allowed users to interact with DilBot directly within their Slack channels, leveraging Slack's familiar interface for commands and responses.
+
 __Amazon Q (Considered Alternative):__ While Amazon Lex and Kendra formed the core, Amazon Q was considered as a potential alternative, highlighting the exploration of different managed chatbot solutions offered by AWS. Amazon Q offers a more integrated, subscription-based approach to building generative AI applications. The main detractor from Amazon Q was the ongoing cost management for a subscription based service.
 
 ## 
